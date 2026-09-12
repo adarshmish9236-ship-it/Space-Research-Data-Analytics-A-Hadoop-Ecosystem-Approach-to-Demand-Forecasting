@@ -1,0 +1,39 @@
+{
+  "models": {
+    "Linear Regression": {
+      "model_type": "linear",
+      "metrics": {
+        "rmse": 0.4509,
+        "mae": 0.2624,
+        "r2": 0.9972,
+        "mape": 6.6
+      },
+      "train_time_s": 3.39,
+      "is_best": true
+    },
+    "Random Forest": {
+      "model_type": "random_forest",
+      "metrics": {
+        "rmse": 1.253,
+        "mae": 0.5747,
+        "r2": 0.9781,
+        "mape": 10.3
+      },
+      "train_time_s": 17.42,
+      "is_best": false
+    },
+    "Gradient Boosted Trees": {
+      "model_type": "gbt",
+      "metrics": {
+        "rmse": 1.1364,
+        "mae": 0.3277,
+        "r2": 0.982,
+        "mape": 2.93
+      },
+      "train_time_s": 382.24,
+      "is_best": false
+    }
+  },
+  "best_model": "Linear Regression",
+  "generated_at": "2026-09-10T10:58:39"
+}

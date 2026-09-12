@@ -1,0 +1,17 @@
+{
+  "name": "orbitalytics-fullstack",
+  "version": "2.0.0",
+  "description": "Orbitalytics — Big Data Space Research Intelligence & Forecasting Full Stack Application",
+  "scripts": {
+    "dev": "concurrently -n \"backend,frontend\" -c \"cyan,magenta\" \"python -m uvicorn app.main:app --reload --host 0.0.0.0 --port 8000 --app-dir backend\" \"npm --prefix frontend run dev\"",
+    "build": "npm --prefix frontend run build",
+    "test": "pytest tests/test_fullstack.py -v",
+    "backend": "python -m uvicorn app.main:app --reload --host 0.0.0.0 --port 8000 --app-dir backend",
+    "frontend": "npm --prefix frontend run dev",
+    "docker:up": "docker compose -f docker/docker-compose.yml up --build",
+    "docker:down": "docker compose -f docker/docker-compose.yml down"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

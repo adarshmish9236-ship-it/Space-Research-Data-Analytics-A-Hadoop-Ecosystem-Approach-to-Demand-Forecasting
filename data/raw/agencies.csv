@@ -1,0 +1,30 @@
+agency_id,agency_name,country,agency_type,founded_year,active
+AGY-0001,NASA,USA,Government,1953,True
+AGY-0002,SpaceX,USA,Government,1981,True
+AGY-0003,ULA,USA,Commercial,1967,True
+AGY-0004,Boeing,USA,Commercial,1961,True
+AGY-0005,Northrop Grumman,USA,Academic,2004,True
+AGY-0006,Rocket Lab,USA,Commercial,1953,True
+AGY-0007,Roscosmos,Russia,Government,1977,True
+AGY-0008,ISS-Reshetnev,Russia,Government,2014,True
+AGY-0009,CNSA,China,Military,1953,True
+AGY-0010,CASC,China,Military,1975,True
+AGY-0011,CASIC,China,Military,2003,True
+AGY-0012,GALACTIC ENERGY,China,Government,2007,True
+AGY-0013,ESA,ESA,Military,1985,True
+AGY-0014,Arianespace,ESA,Government,1970,True
+AGY-0015,ISRO,India,Commercial,1993,True
+AGY-0016,JAXA,Japan,Government,1969,True
+AGY-0017,MHI,Japan,Government,1993,True
+AGY-0018,CNES,France,Commercial,1961,True
+AGY-0019,Arianespace,France,Private,1962,True
+AGY-0020,DLR,Germany,Government,1994,True
+AGY-0021,UKSA,UK,Academic,1983,True
+AGY-0022,OneWeb,UK,Commercial,2008,True
+AGY-0023,ISA,Israel,Academic,1965,True
+AGY-0024,KARI,South Korea,Private,1960,True
+AGY-0025,UAESA,UAE,Academic,1987,True
+AGY-0026,CSA,Canada,Academic,1996,True
+AGY-0027,ASI,Italy,Academic,1974,True
+AGY-0028,AEB,Brazil,Commercial,1955,True
+AGY-0029,Unknown Agency,Other,Commercial,1987,True
